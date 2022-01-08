@@ -5,12 +5,12 @@ variable "record_type" {
   type = string
   default = "A"
 }
-variable "lb_dns_name" {
+variable "alias_name" {
   type = string
 }
-variable "subdomain" {
+variable "domain" {
   type = string
 }
-variable "load_balancer_hosted_zone_id" {
+variable "alias_zone_id" {
   type = string
 }
